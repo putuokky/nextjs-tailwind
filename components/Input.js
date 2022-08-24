@@ -1,6 +1,6 @@
 
 export default function Input({ type = 'text', ...props }) {
   return (
-    <input type={type} {...props} className='w-full px-4 py-2 transition duration-200 border shadow-sm rounded-xl focus:outline-none focus:ring focus:ring-sky-200 focus:border-sky-500' />
+    <input type={type} {...props} className='w-full transition duration-300 border-gray-300 shadow-sm rounded-xl focus:ring focus:ring-indigo-100 focus:border-indigo-400' />
   )
 }

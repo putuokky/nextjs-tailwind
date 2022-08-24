@@ -1,12 +1,11 @@
-import Link from 'next/link'
-import React from 'react'
 import Button from '../components/Button'
-import Checkbox from '../components/Checkbox'
 import Input from '../components/Input'
 import Label from '../components/Label'
 import Guest from '../layouts/Guest'
+import Link from 'next/link'
+import Checkbox from '../components/Checkbox'
 
-export default function login() {
+export default function register() {
   return (
     <div>
       <form>
@@ -29,5 +28,4 @@ export default function login() {
     </div>
   )
 }
-
-login.getLayout = page => <Guest header='Login' title='Login' children={page} />
+register.getLayout = page => <Guest header='Register' title='Register' children={page} />
