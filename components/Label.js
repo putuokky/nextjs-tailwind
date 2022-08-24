@@ -1,6 +1,6 @@
 
-export default function Label({ forInput, children }) {
+export default function Label({ forInput, children, className }) {
   return (
-    <label htmlFor={forInput} className='block mb-1 text-gray-700 capitalize'>{children}</label>
+    <label htmlFor={forInput} className={className}>{children}</label >
   )
 }
